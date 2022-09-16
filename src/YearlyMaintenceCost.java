@@ -12,6 +12,10 @@ public class YearlyMaintenceCost
 
         totalYearlyMaintenceCost=springCost+summerCost+fallCost+winterCost;
 
+        System.out.println("The Spring Cost is:"+springCost);
+        System.out.println("The Summer Cost is:"+summerCost);
+        System.out.println("The Fall Cost is:"+fallCost);
+        System.out.println("The Winter Cost is:"+winterCost);
         System.out.println("The total yearly maintence cost is:" + totalYearlyMaintenceCost);
     }
 }
